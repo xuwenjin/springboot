@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Implementation-Title: springboot-jsp
+Implementation-Title: springboot
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: xwj
 Implementation-Vendor-Id: com.xwj
 Build-Jdk: 1.8.0_172
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/springboot-jsp
+ ot-starter-parent/springboot
 Created-By: Maven Integration for Eclipse
 
