@@ -1,0 +1,17 @@
+server: 
+  port: 8888
+  tomcat:
+    uri-encoding: UTF-8
+  jsp-servlet:
+    init-parameters:
+      development: true
+  
+spring: 
+  profiles.active: prd
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://dev.yonyouccs.com:3001/icop-construct-busisubpack
+    username: devmysql
+    password: DG3kCZ2Jcmpm
+    
+name: com.xwj
