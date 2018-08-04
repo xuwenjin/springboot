@@ -26,6 +26,7 @@ public class UserService {
 		return userMapper.findAll();
 	}
 
+	// 缓存， value是缓存名称，key指定Spring缓存方法的返回结果时对应的key，该属性支持SpringEL表达式
 	@Cacheable(value = "user", key = "'id_'+#id")
 	public UserEntity findById(String id) {
 		return userMapper.findById(id, "xwj");
