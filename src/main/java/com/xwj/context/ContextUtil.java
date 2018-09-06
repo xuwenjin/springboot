@@ -1,4 +1,4 @@
-package com.xwj.app;
+package com.xwj.context;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
