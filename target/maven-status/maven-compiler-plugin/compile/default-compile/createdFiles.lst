@@ -1,7 +1,13 @@
-com\xwj\app\AppContext.class
+com\xwj\exception\ExceptionResult.class
+com\xwj\DemoApplication.class
+com\xwj\exception\BusinessException.class
+com\xwj\exception\GlobalExceptionHandler.class
+com\xwj\aop\WebLogAspect.class
 com\xwj\tasks\ScheduleTask.class
 com\xwj\service\UserService.class
 com\xwj\mapper\UserMapper.class
 com\xwj\entity\UserEntity.class
+com\xwj\context\ContextUtil.class
+com\xwj\exception\InnerException.class
 com\xwj\aop\TestAspect.class
 com\xwj\controller\IndexController.class

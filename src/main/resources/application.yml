@@ -10,9 +10,15 @@ server:
 spring: 
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://dev.yonyouccs.com:3001/custom-zjtl
-    username: devmysql
-    password: DG3kCZ2Jcmpm
-  profiles.active: prd
+    url: jdbc:mysql://localhost:3306/xwj?autoReconnect=true&failOverReadOnly=false&createDatabaseIfNotExist=true&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  gwdb:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/e-travel?autoReconnect=true&failOverReadOnly=false&createDatabaseIfNotExist=true&useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  profiles:
+    active: prd
     
 name: com.xwj

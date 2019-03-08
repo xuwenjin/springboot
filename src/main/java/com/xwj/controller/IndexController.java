@@ -14,6 +14,8 @@ public class IndexController {
 	
 	@Autowired
 	private UserService userService;
+//	@Autowired
+//	private User2Service user2Service;
 	
 	@RequestMapping("/findAll")
 	public List<UserEntity> findAll(){
@@ -47,5 +49,10 @@ public class IndexController {
 		System.out.println("####IndexController####   4");
 		return "success";
 	}
+	
+//	@RequestMapping("/insert2")
+//	public void insertUser2(){
+//		user2Service.addDoc();
+//	}
 	
 }
