@@ -42,14 +42,6 @@ public class IndexController {
 		userService.deleteUser(id);
 	}
 	
-	@RequestMapping("/async")
-	public String async(){
-		System.out.println("####IndexController####   1");
-		userService.sendSms();
-		System.out.println("####IndexController####   4");
-		return "success";
-	}
-	
 //	@RequestMapping("/insert2")
 //	public void insertUser2(){
 //		user2Service.addDoc();
